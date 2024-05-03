@@ -1,8 +1,13 @@
 <script lang="ts">
-import CodeEditor from './ZenEditor.svelte';
+import FileExplorer from './components/FileExplorer.svelte';
+import './app.css';
+
 </script>
 
 <main>
-  <h1>ZenCoder</h1>
-  <CodeEditor />
+  <FileExplorer />
 </main>
+
+<style>
+
+</style>
